@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  padding: 5px;
+
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+nav > img {
+  max-width: 100px;
+  /* padding: 5px; */
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* hero section */
+
+.hero-img > img {
+  display: block;
+  margin-top: 36px;
+  margin-bottom: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.hero-intro {
+  margin-left: 30px;
+}
+
+.hero-tittle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  /* identical to box height, or 40px */
+
+  color: #000000;
+}
+
+/* card CSS */
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  /* border: 2px solid red; */
+  margin-left: 30px;
+  margin-top: 36px;
+  margin-bottom: 25px;
+}
+
+.card--img {
+  width: 171px;
+  border-radius: 9px;
+}
+
+.card-status {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  padding-left: 5px;
+}
+
+.star-img {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+.card--pera {
+  width: 175px;
+  height: 14px;
+  margin: 4px 5px 4px;
+}
+
+.card--unit {
+  /* margin-top: -5px; */
+}
+
+.card-price {
+  font-weight: 600;
+  color: #fc9e11;
+}
